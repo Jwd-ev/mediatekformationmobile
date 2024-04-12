@@ -1,0 +1,8 @@
+
+•
+java:S2293:"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆð€úJ$12b4d9d3-e253-4235-84fb-cad6880221ed
+‡
+java:S1301W"KReplace this "switch" statement by "if" statements to increase readability.(ìè²ëJ$b6113628-b617-4666-94e9-1f8141fb5b28
+Ú
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ä‘üŒøÿÿÿÿJ$20ab5854-716f-443a-9699-98325781c92b
+]	java:S131W""Add a default case to this switch.(ìè²ëJ$224d4b1f-41dc-4cb4-9bb1-e734f0a59696
