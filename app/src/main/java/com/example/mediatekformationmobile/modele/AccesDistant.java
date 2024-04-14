@@ -68,6 +68,7 @@ public class AccesDistant implements AsyncResponse {
                         lesFormations.add(formation);
                     }
                     controle.setLesFormations(lesFormations);
+                    controle.setLesFormationsCopie(lesFormations);
                 }
             }
         } catch (JSONException e) {

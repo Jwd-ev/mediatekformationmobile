@@ -1,5 +1,6 @@
 package com.example.mediatekformationmobile.controleur;
 
+import android.util.Log;
 import com.example.mediatekformationmobile.modele.AccesDistant;
 import com.example.mediatekformationmobile.modele.Formation;
 
@@ -9,6 +10,7 @@ public class Controle {
 
     private static Controle instance = null ;
     private ArrayList<Formation> lesFormations = new ArrayList<>();
+    private ArrayList<Formation> lesFormationsCopie = new ArrayList<>(); // Nouvelle variable ajoutée
     private Formation formation = null;
     private static AccesDistant accesDistant;
 
@@ -48,5 +50,27 @@ public class Controle {
         this.lesFormations = lesFormations;
     }
 
+    public ArrayList<Formation> getLesFormationsCopie() { // Méthode pour obtenir lesFormationsCopie
+        return lesFormationsCopie;
+    }
+
+    public void setLesFormationsCopie(ArrayList<Formation> lesFormationsCopie) { // Méthode pour définir lesFormationsCopie
+        this.lesFormationsCopie = lesFormationsCopie;
+    }
+
+    /**
+     * retourne les formations dont le titre contient le filtre
+     * @param filtre
+     * @return
+     */
+    public ArrayList<Formation> getLesFormationFiltre(String filtre){
+        ArrayList<Formation> lesFormationsFiltre = new ArrayList<>();
+        for(Formation uneFormation : lesFormations){
+            if(uneFormation.getTitle().toUpperCase().contains(filtre.toUpperCase())){
+                lesFormationsFiltre.add(uneFormation);
+            }
+        }
+        return lesFormationsFiltre;
+    }
 }
 

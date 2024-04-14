@@ -1,8 +1,10 @@
 
 •
-java:S2293:"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆð€úJ$12b4d9d3-e253-4235-84fb-cad6880221ed
+java:S2293:"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆð€úJ$c8d466df-bdc7-4224-85e9-adc887cbf3ec
 ‡
-java:S1301W"KReplace this "switch" statement by "if" statements to increase readability.(ìè²ëJ$b6113628-b617-4666-94e9-1f8141fb5b28
+java:S1301X"KReplace this "switch" statement by "if" statements to increase readability.(ìè²ëJ$3657e83f-9cb7-4c48-b89b-4ce865e5bda8
 Ú
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ä‘üŒøÿÿÿÿJ$20ab5854-716f-443a-9699-98325781c92b
-]	java:S131W""Add a default case to this switch.(ìè²ëJ$224d4b1f-41dc-4cb4-9bb1-e734f0a59696
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ä‘üŒøÿÿÿÿJ$8ab306f8-10c8-4f8e-bb45-685f3421ca73
+]	java:S131X""Add a default case to this switch.(ìè²ëJ$5922a594-0aef-445b-9e54-ef22a894e5c8
+w
+java:S1874a"/Remove this use of "execute"; it is deprecated.(œ«¿Èûÿÿÿÿ8ôöð¡í1J$db906efd-b986-4b4d-9649-7e83d9df407e
